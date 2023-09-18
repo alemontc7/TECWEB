@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/manualhtml.css">
+    <title>Document</title>
+    <script src="../javascript/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="main-tittle">HTML</h1>
+        <div>
+            <nav>
+                <ol class="elementos-lista-nav">
+                    <li class="elemento"><a href="../index.html"><span>HOME</span></a></li>
+                    <li class="elemento"><a href="#"><span>JAVASCRIPT</span></a></li>
+                    <li class="elemento"><a href="#"><span>CSS</span></a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th> ELEMENTO</th>
+                        <th> DESCRIPCIÓN</th>
+                        <th> EJEMPLO</th>
+                        <th> MÁS INFORMACIÓN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!---->
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;html&gt;</pre></td>
+                        <td class="descripcion-column">
+                            Es el bloque básico de la web, le indica al navegador como debe leer y estructurar el contenido de la web
+                            Esta etiqueta se usa al principio y al final del documento HTML                            
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;HTML&gt;
+                                    &lt;head&gt;
+                                    &lt;/head&gt;
+                                &lt;body&gt;
+                                dsadsad a dsadas dsadsadas asdsadasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsasa dasdsa
+                                fdsfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                                Este es un documento HTML
+                                &lt;/body&gt;
+                                &lt;/HTML&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><pre>&lt;html&gt;</pre></a>  </td>
+                    </tr>
+
+                    <!--
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;PON LA ETIQUETA AQUI&gt;</pre></td>
+                        <td class="descripcion-column">PON SU DESCRIPCION AQUI</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                PON EL CODIGO AQUI
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="PON EL LINK AQUI" target="_blank"><pre>&lt;PON LA ETIQUETA AQUI&gt;</pre></a>  </td>
+                    </tr>
+                    -->
+
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;p&gt;</pre></td>
+                        <td class="descripcion-column">Párrafo: Se utiliza para representar un párrafo de texto.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/p" target="_blank"><pre>&lt;p&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;a&gt;</pre></td>
+                        <td class="descripcion-column">Enlace: Utilizado para crear hipervínculos a otras páginas web o recursos.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;a href="https://www.ejemplo.com"&gt;Enlace de ejemplo&lt;/a&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a" target="_blank"><pre>&lt;a&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;img&gt;</pre></td>
+                        <td class="descripcion-column">Imagen: Se utiliza para mostrar imágenes en una página web.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img" target="_blank"><pre>&lt;img&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;h1&gt;</pre></td>
+                        <td class="descripcion-column">Encabezado 1: Representa el encabezado principal de una sección.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;h1&gt;Título de ejemplo&lt;/h1&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/h1" target="_blank"><pre>&lt;h1&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ul&gt;</pre></td>
+                        <td class="descripcion-column">Lista no ordenada: Utilizada para crear listas de elementos sin un orden específico.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;ul&gt;
+                                    &lt;li&gt;Elemento 1&lt;/li&gt;
+                                    &lt;li&gt;Elemento 2&lt;/li&gt;
+                                    &lt;li&gt;Elemento 3&lt;/li&gt;
+                                &lt;/ul&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul" target="_blank"><pre>&lt;ul&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ol&gt;</pre></td>
+                        <td class="descripcion-column">Lista ordenada: Utilizada para crear listas de elementos con un orden específico.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;ol&gt;
+                                    &lt;li&gt;Elemento 1&lt;/li&gt;
+                                    &lt;li&gt;Elemento 2&lt;/li&gt;
+                                    &lt;li&gt;Elemento 3&lt;/li&gt;
+                                &lt;/ol&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ol" target="_blank"><pre>&lt;ol&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;table&gt;</pre></td>
+                        <td class="descripcion-column">Tabla: Se utiliza para crear tablas de datos en una página web.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;table&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Celda 1&lt;/td&gt;
+                                        &lt;td&gt;Celda 2&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Celda 3&lt;/td&gt;
+                                        &lt;td&gt;Celda 4&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/table" target="_blank"><pre>&lt;table&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;form&gt;</pre></td>
+                        <td class="descripcion-column">Formulario: Se utiliza para crear formularios interactivos.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;form action="/procesar" method="POST"&gt;
+                                    &lt;input type="text" name="nombre" placeholder="Nombre"&gt;
+                                    &lt;input type="email" name="email" placeholder="Correo electrónico"&gt;
+                                    &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+                                &lt;/form&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form" target="_blank"><pre>&lt;form&gt;</pre></a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;div&gt;</pre></td>
+                        <td class="descripcion-column">Div: Se utiliza para agrupar y aplicar estilos a elementos HTML.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;div class="contenedor"&gt;
+                                    Contenido dentro del div.
+                                &lt;/div&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/div" target="_blank"><pre>&lt;div&gt;</pre></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        Alejandro Montero
+    </footer>
+</body>
+</html>
