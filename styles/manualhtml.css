@@ -118,4 +118,50 @@ footer {
 
     color: #aca9a9;
 }
+@media (max-width: 768px) {
+    .main-tittle {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
 
+    th, td {
+        font-size: 14px; /* Reduce font size for table cells */
+        padding: 10px; /* Reduce cell padding */
+        width: auto;
+    }
+
+    .elemento {
+        font-size: 16px; /* Adjust font size for navigation elements */
+    }
+
+    .mas-info-column a {
+        font-size: 16px; /* Adjust font size for more information links */
+    }
+
+    .codigo-contenedor {
+        max-width: 100%; /* Allow code container to take full width */
+        overflow-x: auto; /* Add horizontal scroll for code container */
+    }
+
+    .boton-copiar {
+        margin-left: 0; /* Reset margin for copy button */
+    }
+
+    footer {
+        font-size: 18px; /* Adjust font size for footer text */
+        margin-top: 20px; /* Reduce top margin for footer */
+        margin-bottom: 20px; /* Reduce bottom margin for footer */
+    }
+    table {
+        overflow-x: auto; /* Add horizontal scrolling */
+    }
+    .descripcion-column, .ejemplo-column {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    /* Hide less important columns on small screens */
+    /* You can adjust which columns to hide based on your content */
+    .hide-on-small {
+        display: none;
+    }
+}
