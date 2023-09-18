@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/manualhtml.css">
-    <title>Document</title>
+    <title>HTML</title>
     <script src="../javascript/funciones.js"></script>
 </head>
 <body>
@@ -34,28 +34,1848 @@
                 <tbody>
                     <!---->
                     <tr>
-                        <td class="elemento-column"><pre>&lt;html&gt;</pre></td>
+                        <td class="elemento-column"><pre>&lt;p&gt;</pre></td>
                         <td class="descripcion-column">
-                            Es el bloque básico de la web, le indica al navegador como debe leer y estructurar el contenido de la web
-                            Esta etiqueta se usa al principio y al final del documento HTML                            
+                            El elemento HTML &lt;p&gt; representa un párrafo. Los párrafos suelen representarse en medios visuales 
+                            como bloques de texto separados de bloques adyacentes por líneas en blanco o sangría en la primera línea, 
+                            pero los párrafos HTML pueden ser cualquier agrupación estructural de contenido relacionado, como imágenes o campos de formulario.
+                            Los párrafos son elementos de nivel de bloque y, notablemente, se cerrarán automáticamente si se analiza otro 
+                            elemento de nivel de bloque antes de la etiqueta de cierre &lt;/p&gt;.                         
                         </td>
                         <td class="ejemplo-column">
                             <div class="codigo-contenedor">
-                                &lt;HTML&gt;
-                                    &lt;head&gt;
-                                    &lt;/head&gt;
-                                &lt;body&gt;
-                                dsadsad a dsadas dsadsadas asdsadasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsasa dasdsa
-                                fdsfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-                                Este es un documento HTML
-                                &lt;/body&gt;
-                                &lt;/HTML&gt;
+                                &lt;p&gt;
+                                    Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Antarctica.
+                                &lt;/p&gt;
+                                &lt;p&gt;
+                                    Some species live in houses where they hunt insects attracted by artificial light.
+                                &lt;/p&gt;
                             </div>
                             <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
                         </td>
-                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><pre>&lt;html&gt;</pre></a>  </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank"><pre>&lt;p&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;input&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;input&gt; se utiliza para crear controles interactivos en formularios web con el fin 
+                            de aceptar datos del usuario; hay una amplia variedad de tipos de datos de entrada y widgets de 
+                            control disponibles, dependiendo del dispositivo y el agente de usuario. El elemento &lt;input&gt; 
+                            es uno de los más poderosos y complejos en todo HTML debido a la gran cantidad de combinaciones 
+                            de tipos de entrada y atributos disponibles.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" /&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank"><pre>&lt;input&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;body&gt;</pre></td>
+                        <td class="descripcion-column">El elemento HTML &lt;body&gt; representa el contenido de un documento HTML. 
+                            Puede haber solo un elemento &lt;body&gt; en un documento.</td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;html lang="en"&gt;
+                                &lt;head&gt;
+                                  &lt;title&gt;Document title&lt;/title&gt;
+                                &lt;/head&gt;
+                                &lt;body&gt;
+                                  &lt;p&gt;
+                                    The &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; HTML element represents the content of an
+                                    HTML document. There can be only one &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; element in
+                                    a document.
+                                  &lt;/p&gt;
+                                &lt;/body&gt;
+                            &lt;/html&gt;
+
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank"><pre>&lt;body&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;div&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML div es el contenedor genérico para contenido de flujo. 
+                            No tiene ningún efecto en el contenido o diseño hasta que se estiliza de 
+                            alguna manera usando CSS (por ejemplo, aplicando estilos directamente a él 
+                            o utilizando algún tipo de modelo de diseño como Flexbox en su elemento padre).
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;div class="warning"&gt;
+                              &lt;img src="/media/examples/leopard.jpg" alt="Un leopardo intimidante." /&gt;
+                              &lt;p&gt;Cuidado con el leopardo&lt;/p&gt;
+                            &lt;/div&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank"><pre>&lt;div&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;h1&gt;</pre></td>
+                        <td class="descripcion-column">Representa el encabezado de más alto nivel en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h1&gt;Título principal&lt;/h1&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h1&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;h2&gt;</pre></td>
+                        <td class="descripcion-column">Representa un nivel de encabezado secundario en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h2&gt;Subtítulo&lt;/h2&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h2&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;h3&gt;</pre></td>
+                        <td class="descripcion-column">Representa un nivel de encabezado terciario en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h3&gt;Subtítulo terciario&lt;/h3&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h3&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;h4&gt;</pre></td>
+                        <td class="descripcion-column">Representa un nivel de encabezado cuaternario en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h4&gt;Subtítulo cuaternario&lt;/h4&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h4&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;h5&gt;</pre></td>
+                        <td class="descripcion-column">Representa un nivel de encabezado quinario en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h5&gt;Subtítulo quinario&lt;/h5&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h5&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;h6&gt;</pre></td>
+                        <td class="descripcion-column">Representa un nivel de encabezado sextario en un documento HTML.</td>
+                        <td class="ejemplo-column">
+                          <div class="codigo-contenedor">
+                            &lt;h6&gt;Subtítulo sextario&lt;/h6&gt;
+                          </div>
+                          <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><pre>&lt;h6&gt;</pre></a></td>
+                      </tr>
+                      <tr>
+                        <td class="elemento-column"><pre>&lt;head&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;head&gt; contiene información legible por máquinas (metadatos) 
+                            sobre el documento, como su título, scripts y hojas de estilo.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;!doctype html&gt;
+                                &lt;html lang="en-US"&gt;
+                                  &lt;head&gt;
+                                    &lt;meta charset="UTF-8" /&gt;
+                                    &lt;meta name="viewport" content="width=device-width" /&gt;
+                                    &lt;title&gt;Document title&lt;/title&gt;
+                                  &lt;/head&gt;
+                                &lt;/html&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank"><pre>&lt;head&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;title&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;title&gt; define el título del documento que se muestra en la barra de 
+                            título del navegador o en la pestaña de una página. Solo contiene texto; las etiquetas dentro 
+                            del elemento son ignoradas.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;title&gt;Diario del Festival de Heavy Metal de la Abuela&lt;/title&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><pre>&lt;title&gt;</pre></a>  </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;base&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;base&gt; especifica una URL base para las URL relativas en un documento.
+                            Solo puede existir un elemento base en un documento
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;base href="https://www.ejemplo.com/"&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank"><pre>&lt;base&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;link&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;link&gt; define la relación entre el documento actual y un recurso externo. 
+                            Es ampliamente utilizado para vincular hojas de estilo CSS a documentos HTML.
+                            También es usado para establecer sitios de iconos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;link rel="stylesheet" href="estilos.css"&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank"><pre>&lt;link&gt;</pre></a></td>
                     </tr>
 
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;meta&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;meta&gt; proporciona metadatos sobre el documento, como el conjunto de caracteres, 
+                            la descripción, palabras clave y otros datos importantes para los motores de búsqueda y navegadores.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;meta http-equiv="refresh" content="3;url=https://www.mozilla.org"/&gt;
+
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank"><pre>&lt;meta&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;script&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;script&gt; se utiliza para incrustar o referenciar código 
+                            JavaScript en un documento HTML. Permite la creación de interactividad y dinamismo en la página.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;script src="script.js"&gt;&lt;/script&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target="_blank"><pre>&lt;script&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;style&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;style&gt; se utiliza para definir estilos CSS directamente 
+                            en el documento HTML. Puede contener reglas de estilo que afectan a los elementos del documento.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;style&gt;
+                                    body {
+                                        background-color: lightblue;
+                                        font-family: Arial, sans-serif;
+                                    }
+                                &lt;/style&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" target="_blank"><pre>&lt;style&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;a&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;a&gt; se utiliza para crear hipervínculos o enlaces a otras páginas web, 
+                            direcciones de correo electrónico, lugares dentro de la misma página o cualquier otra cosa 
+                            a la que una URL pueda redireccionar. 
+                            Si el atributo href está presente, al hacer click sobre el elemento &lt;a&gt; se activará el link del href.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;You can reach Michael at:&lt;/p&gt;
+                                &lt;ul&gt;
+                                  &lt;li&gt;&lt;a href="https://example.com"&gt;Website&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a href="mailto:m.bluth@example.com"&gt;Email&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a href="tel:+123456789"&gt;Phone&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                                
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank"><pre>&lt;a&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;abbr&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;abbr&gt; representa una abreviatura o acrónimo.
+
+                                Cuando se incluye una abreviatura o acrónimo, proporciona una expansión 
+                                completa del término en texto plano en la primera aparición, junto con &lt;abbr&gt; 
+                                para marcar la abreviatura. Esto informa al usuario sobre lo que significa la abreviatura o acrónimo.
+                                
+                                El atributo opcional "title" puede proporcionar una expansión para la abreviatura o acrónimo cuando 
+                                no se dispone de una expansión completa. Esto proporciona una pista a los agentes de usuario sobre
+                                 cómo anunciar/mostrar el contenido mientras informa a todos los usuarios sobre lo que significa
+                                  la abreviatura. Si está presente, el "title" debe contener esta descripción completa y nada más.e 
+                                  sobre él.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;
+                                You can use &lt;abbr&gt;CSS&lt;/abbr&gt; (Cascading Style Sheets) to style your &lt;abbr&gt;HTML&lt;/abbr&gt; (HyperText Markup Language).
+                                Using style sheets, you can keep your &lt;abbr&gt;CSS&lt;/abbr&gt; presentation layer and &lt;abbr&gt;HTML&lt;/abbr&gt; content layer
+                                separate. This is called "separation of concerns."
+                              &lt;/p&gt;
+                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank"><pre>&lt;abbr&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;address&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;address&gt; se utiliza para representar información de contacto o detalles de 
+                            ubicación, como direcciones de correo electrónico o direcciones físicas.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;address&gt;
+                                &lt;p&gt;Correo electrónico: &lt;a href="mailto:info@ejemplo.com"&gt;info@ejemplo.com&lt;/a&gt;&lt;/p&gt;
+                                &lt;p&gt;Dirección: 123 Calle Ejemplo, Ciudad Ejemplo&lt;/p&gt;
+                            &lt;/address&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank"><pre>&lt;address&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;article&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;article&gt; representa una composición autónoma en un documento, 
+                            página, aplicación o sitio, que se pretende que sea independientemente distribuible o reutilizable.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;div class="forecast"&gt;
+                                &lt;h1&gt;Weather forecast for Seattle&lt;/h1&gt;
+                                &lt;div class="day-forecast"&gt;
+                                  &lt;h2&gt;03 March 2018&lt;/h2&gt;
+                                  &lt;p&gt;Rain.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class="day-forecast"&gt;
+                                  &lt;h2&gt;04 March 2018&lt;/h2&gt;
+                                  &lt;p&gt;Periods of rain.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class="day-forecast"&gt;
+                                  &lt;h2&gt;05 March 2018&lt;/h2&gt;
+                                  &lt;p&gt;Heavy rain.&lt;/p&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank"><pre>&lt;article&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;audio&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;audio&gt; se utiliza para incorporar contenido de audio, 
+                            como música o efectos de sonido, en una página web. 
+                            Puede contener una o más fuentes de audio, representadas mediante el atributo src o el elemento 
+                            &lt;source&gt;: el navegador elegirá la más adecuada. También puede ser el destino de medios transmitidos, 
+                            utilizando un MediaStream.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;figure&gt;
+                                &lt;figcaption&gt;Listen to the T-Rex:&lt;/figcaption&gt;
+                                &lt;audio controls src="/media/cc0-audio/t-rex-roar.mp3"&gt;
+                                  &lt;a href="/media/cc0-audio/t-rex-roar.mp3"&gt; Download audio &lt;/a&gt;
+                                &lt;/audio&gt;
+                              &lt;/figure&gt;
+                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank"><pre>&lt;audio&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;b&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;b&gt; se utiliza para aplicar un estilo de texto en negrita a un 
+                            fragmento de contenido, pero no imparte importancia semántica al texto en sí. Sin embargo
+                            no se debería utilizar el elemento &lt;b&gt; para estilizar texto. Si se desea estilizar el texto se 
+                            debería utilizar font-weight y para darle importancia semántica al texto se debería utilizar &lt;strong&gt;
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;
+                                  The two most popular science courses offered by the school are &lt;b class="term"&gt;chemistry&lt;/b&gt; (the study of chemicals
+                                  and the composition of substances) and &lt;b class="term"&gt;physics&lt;/b&gt; (the study of the nature and properties of matter
+                                  and energy).
+                                &lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" target="_blank"><pre>&lt;b&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;bdo&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;bdo&gt; se utiliza para anular la dirección de texto principal de su 
+                            contexto y establecer una nueva dirección de texto para su contenido.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;h1&gt;Famous seaside songs&lt;/h1&gt;
+                                &lt;p&gt;The English song "Oh I do like to be beside the seaside"&lt;/p&gt;
+                                &lt;p&gt;Looks like this in Hebrew: &lt;span dir="rtl"&gt;אה, אני אוהב להיות ליד חוף הים&lt;/span&gt;&lt;/p&gt;
+                                &lt;p&gt;In the computer's memory, this is stored as &lt;bdo dir="ltr"&gt;אה, אני אוהב להיות ליד חוף הים&lt;/bdo&gt;&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo" target="_blank"><pre>&lt;bdo&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;bdi&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;bdi&gt; indica al algoritmo bidireccional del navegador que trate el 
+                            texto que contiene de forma independiente del texto circundante. 
+                            Es especialmente útil cuando un sitio web inserta dinámicamente algún texto y
+                            no conoce la dirección del texto que se está insertando.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un &lt;bdi&gt;texto aislado&lt;/bdi&gt; en medio del texto circundante.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi" target="_blank"><pre>&lt;bdi&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;blockquote&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;blockquote&gt; se utiliza para citar texto de una fuente externa o 
+                            de otro autor. Generalmente se muestra con un formato de bloque y a menudo tiene 
+                            sangría en los márgenes izquierdo y derecho.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;blockquote&gt;
+                                &lt;p&gt;La sabiduría comienza en el asombro.&lt;/p&gt;
+                                &lt;cite&gt;Sócrates&lt;/cite&gt;
+                            &lt;/blockquote&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank"><pre>&lt;blockquote&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;br&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;br&gt; se utiliza para insertar un salto de línea o un salto de línea 
+                            forzado en el texto, lo que hace que el contenido siguiente aparezca en una nueva línea. No se 
+                            recomienda usar para hacer saltos de linea arbitrariamente, más bien lo puede utilizar para poesía.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;
+                                  O’er all the hilltops&lt;br /&gt;
+                                  Is quiet now,&lt;br /&gt;
+                                  In all the treetops&lt;br /&gt;
+                                  Hearest thou&lt;br /&gt;
+                                  Hardly a breath;&lt;br /&gt;
+                                  The birds are asleep in the trees:&lt;br /&gt;
+                                  Wait, soon like these&lt;br /&gt;
+                                  Thou too shalt rest.
+                                &lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank"><pre>&lt;br&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;canvas&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;canvas&gt; se utiliza para dibujar gráficos, imágenes y animaciones 
+                            en una página web mediante JavaScript. Es una superficie en blanco que se puede 
+                            programar para representar visualmente cualquier cosa.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;canvas id="miCanvas" width="300" height="150"&gt;&lt;/canvas&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank"><pre>&lt;canvas&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;button&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;button&gt; se utiliza para crear un botón interactivo que los 
+                            usuarios pueden hacer clic para realizar una acción o enviar un formulario.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;button type="button" onclick="alert('¡Hola, mundo!')"&gt;Saludar&lt;/button&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" target="_blank"><pre>&lt;button&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;cite&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;cite&gt; se utiliza para representar una referencia o cita a una 
+                            obra, como un libro, película o artículo. Puede ayudar a indicar la fuente de la información.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Según &lt;cite&gt;El Gran Gatsby&lt;/cite&gt;, "Soñar en grande nunca pasa de moda".&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="_blank"><pre>&lt;cite&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;del&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;del&gt; se utiliza para representar texto o contenido que ha sido 
+                            eliminado o marcado como obsoleto en una versión anterior de un documento.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;blockquote&gt;
+                                There is &lt;del&gt;nothing&lt;/del&gt; &lt;ins&gt;no code&lt;/ins&gt; either good or bad, but &lt;del&gt;thinking&lt;/del&gt; &lt;ins&gt;running it&lt;/ins&gt; makes it so.
+                            &lt;/blockquote&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target="_blank"><pre>&lt;del&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;details&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;details&gt; se utiliza para crear un widget desplegable que 
+                            muestra u oculta contenido adicional cuando el usuario hace clic en el control.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;details&gt;
+                                &lt;summary&gt;Haz clic para ver más&lt;/summary&gt;
+                                &lt;p&gt;Este es un contenido oculto que se revela cuando haces clic.&lt;/p&gt;
+                            &lt;/details&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank"><pre>&lt;details&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;dfn&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;dfn&gt; se utiliza para marcar la primera aparición de la 
+                            definición de un término en un texto. Es especialmente útil en documentos técnicos o 
+                            académicos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;La &lt;dfn&gt;informática&lt;/dfn&gt; es el estudio de las computadoras y la tecnología de la información.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="_blank"><pre>&lt;dfn&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;dl&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;dl&gt; se utiliza para definir una lista de descripción. 
+                            Contiene una lista de pares de términos y descripciones asociadas.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;dl&gt;
+                                &lt;dt&gt;HTML&lt;/dt&gt;
+                                &lt;dd&gt;Lenguaje de marcado para crear páginas web.&lt;/dd&gt;
+                                &lt;dt&gt;CSS&lt;/dt&gt;
+                                &lt;dd&gt;Hojas de estilo en cascada para el diseño web.&lt;/dd&gt;
+                            &lt;/dl&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank"><pre>&lt;dl&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;em&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;em&gt; se utiliza para enfatizar texto, generalmente mediante 
+                            itálicas, para resaltar una parte importante o relevante del contenido.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Por favor, &lt;em&gt;no toques&lt;/em&gt; el botón rojo.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank"><pre>&lt;em&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;fieldset&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;fieldset&gt; se utiliza para agrupar y contener elementos de 
+                            formulario relacionados. Puede incluir un &lt;legend&gt; para describir el propósito 
+                            del grupo de campos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;fieldset&gt;
+                                &lt;legend&gt;Información de contacto&lt;/legend&gt;
+                                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+                                &lt;input type="text" id="nombre" name="nombre"&gt;
+                                &lt;label for="email"&gt;Correo electrónico:&lt;/label&gt;
+                                &lt;input type="email" id="email" name="email"&gt;
+                            &lt;/fieldset&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" target="_blank"><pre>&lt;fieldset&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;figure&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;figure&gt; se utiliza para encapsular cualquier contenido 
+                            relacionado, como imágenes, ilustraciones, gráficos y piezas multimedia, junto con 
+                            su descripción.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;figure&gt;
+                                &lt;img src="imagen.jpg" alt="Una imagen"&gt;
+                                &lt;figcaption&gt;Descripción de la imagen&lt;/figcaption&gt;
+                            &lt;/figure&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank"><pre>&lt;figure&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;footer&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;footer&gt; se utiliza para representar información de pie de página 
+                            en un documento, como derechos de autor, enlaces a páginas relacionadas o información 
+                            de contacto.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;footer&gt;
+                                &lt;p&gt;© 2023 Mi Compañía. Todos los derechos reservados.&lt;/p&gt;
+                            &lt;/footer&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank"><pre>&lt;footer&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;form&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;form&gt; se utiliza para crear un formulario en una página web. 
+                            Puede contener campos de entrada, botones, selectores y otros elementos para que 
+                            los usuarios ingresen y envíen datos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;form action="" method="get" class="form-example"&gt;
+                                &lt;div class="form-example"&gt;
+                                  &lt;label for="name"&gt;Enter your name: &lt;/label&gt;
+                                  &lt;input type="text" name="name" id="name" required /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="form-example"&gt;
+                                  &lt;label for="email"&gt;Enter your email: &lt;/label&gt;
+                                  &lt;input type="email" name="email" id="email" required /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="form-example"&gt;
+                                  &lt;input type="submit" value="Subscribe!" /&gt;
+                                &lt;/div&gt;
+                              &lt;/form&gt;                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank"><pre>&lt;form&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;header&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;header&gt; se utiliza para representar una sección de 
+                            encabezado en un documento o una sección de encabezado de un elemento 
+                            seccional. Contiene información introductoria o de navegación.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;header&gt;
+                                &lt;h1&gt;Título del sitio&lt;/h1&gt;
+                                &lt;nav&gt;
+                                    &lt;a href="/">Inicio&lt;/a&gt;
+                                    &lt;a href="/acerca-de">Acerca de&lt;/a&gt;
+                                    &lt;a href="/contacto">Contacto&lt;/a&gt;
+                                &lt;/nav&gt;
+                            &lt;/header&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank"><pre>&lt;header&gt;</pre></a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;hgroup&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;hgroup&gt; se utiliza para agrupar múltiples elementos de título 
+                            (&lt;h1&gt; a &lt;h6&gt;) dentro de un encabezado (&lt;header&gt;). Ayuda a organizar 
+                            y estructurar los títulos en un encabezado de manera semántica.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;header&gt;
+                                &lt;hgroup&gt;
+                                    &lt;h1&gt;Mi Sitio Web&lt;/h1&gt;
+                                    &lt;h2&gt;Un lugar para aprender HTML&lt;/h2&gt;
+                                &lt;/hgroup&gt;
+                                &lt;nav&gt;
+                                    &lt;a href="#inicio"&gt;Inicio&lt;/a&gt;
+                                    &lt;a href="#acerca"&gt;Acerca de&lt;/a&gt;
+                                    &lt;a href="#contacto"&gt;Contacto&lt;/a&gt;
+                                &lt;/nav&gt;
+                            &lt;/header&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup" target="_blank"><pre>&lt;hgroup&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;hr&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;hr&gt; se utiliza para representar un quiebre temático en una 
+                            página web. Generalmente se muestra como una línea horizontal que separa contenido.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+                            &lt;hr&gt;
+                            &lt;p&gt;Este es otro párrafo.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="_blank"><pre>&lt;hr&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;i&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;i&gt; se utiliza para representar texto en cursiva o un 
+                            estilo de fuente alternativo, aunque se considera obsoleto en favor de 
+                            estilos CSS más modernos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un texto en &lt;i&gt;cursiva&lt;/i&gt;.&lt;/p&gt;
+                            &lt;p&gt;Este es un &lt;i&gt;texto en estilo alternativo&lt;/i&gt;.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" target="_blank"><pre>&lt;i&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;iframe&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;iframe&gt; se utiliza para insertar contenido de otra página 
+                            web dentro de un documento. Puede contener páginas completas o contenido incrustado 
+                            como mapas o videos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;iframe
+                                id="inlineFrameExample"
+                                title="Inline Frame Example"
+                                width="300"
+                                height="200"
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+                              &gt;
+                              &lt;/iframe&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank"><pre>&lt;iframe&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;img&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;img&gt; se utiliza para mostrar imágenes en una página web. 
+                            Debe contener el atributo "src" que especifica la ubicación de la imagen.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                            &lt;p&gt;Aquí se muestra una &lt;img&gt; imagen en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank"><pre>&lt;img&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ins&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;ins&gt; se utiliza para representar texto o contenido que ha sido 
+                            insertado o agregado en un documento después de su creación original. Suele mostrarse 
+                            subrayado por defecto en la mayoría de los navegadores.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;“You're late!”&lt;/p&gt;
+                                &lt;del&gt;
+                                  &lt;p&gt;“I apologize for the delay.”&lt;/p&gt;
+                                &lt;/del&gt;
+                                &lt;ins cite="../howtobeawizard.html" datetime="2018-05"&gt;
+                                  &lt;p&gt;“A wizard is never late …”&lt;/p&gt;
+                                &lt;/ins&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins" target="_blank"><pre>&lt;ins&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;kbd&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;kbd&gt; se utiliza para representar texto o contenido que debe 
+                            ser introducido por el usuario, generalmente desde el teclado. Suele mostrarse en 
+                            una fuente monoespaciada.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Presiona &lt;kbd&gt;Ctrl + C&lt;/kbd&gt; para copiar el texto.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" target="_blank"><pre>&lt;kbd&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;label&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;label&gt; se utiliza para asociar una etiqueta descriptiva con 
+                            un elemento de formulario, como un campo de entrada. Ayuda a mejorar la accesibilidad 
+                            y la usabilidad del formulario.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+                            &lt;input type="text" id="nombre" name="nombre"&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank"><pre>&lt;label&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;li&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;li&gt; se utiliza para representar un elemento de una lista, ya sea 
+                            una lista ordenada (&lt;ol&gt;) o una lista desordenada (&lt;ul&gt;). Cada elemento de 
+                            la lista comienza con &lt;li&gt; y puede contener contenido o elementos adicionales.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;ul&gt;
+                                &lt;li&gt;Elemento 1&lt;/li&gt;
+                                &lt;li&gt;Elemento 2&lt;/li&gt;
+                                &lt;li&gt;Elemento 3&lt;/li&gt;
+                            &lt;/ul&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank"><pre>&lt;li&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;main&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;main&gt; se utiliza para representar el contenido principal o 
+                            central de una página web. Debe haber solo un &lt;main&gt; por documento y no debe 
+                            estar anidado en otros elementos de sección.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;main&gt;
+                                &lt;h1&gt;Título principal&lt;/h1&gt;
+                                &lt;p&gt;Este es el contenido principal de la página.&lt;/p&gt;
+                            &lt;/main&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank"><pre>&lt;main&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;map&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;map&gt; se utiliza para definir áreas sensibles de una imagen 
+                            que se pueden hacer clic. Estas áreas se definen utilizando elementos &lt;area&gt; 
+                            dentro del mapa.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;map name="infographic"&gt;
+                                &lt;area
+                                  shape="poly"
+                                  coords="130,147,200,107,254,219,130,228"
+                                  href="https://developer.mozilla.org/docs/Web/HTML"
+                                  target="_blank"
+                                  alt="HTML"
+                                /&gt;
+                                &lt;area
+                                  shape="poly"
+                                  coords="130,147,130,228,6,219,59,107"
+                                  href="https://developer.mozilla.org/docs/Web/CSS"
+                                  target="_blank"
+                                  alt="CSS"
+                                /&gt;
+                                &lt;area
+                                  shape="poly"
+                                  coords="130,147,200,107,130,4,59,107"
+                                  href="https://developer.mozilla.org/docs/Web/JavaScript"
+                                  target="_blank"
+                                  alt="JavaScript"
+                                /&gt;
+                              &lt;/map&gt;
+                              &lt;img usemap="#infographic" src="/media/examples/mdn-info2.png" alt="MDN infographic" /&gt;                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map" target="_blank"><pre>&lt;map&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;mark&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;mark&gt; se utiliza para resaltar partes de texto dentro de 
+                            un documento. El texto resaltado suele aparecer en amarillo por defecto en la 
+                            mayoría de los navegadores.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un &lt;mark&gt;texto resaltado&lt;/mark&gt; en la página.&lt;/p&gt;
+                            &lt;p&gt;Otra &lt;mark&gt;parte resaltada&lt;/mark&gt; del texto.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" target="_blank"><pre>&lt;mark&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;math&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;math&gt; se utiliza para representar contenido matemático en una 
+                            página web. Puede contener fórmulas, ecuaciones y otros elementos matemáticos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;p&gt;
+                                  The infinite sum
+                                  &lt;math display="block"&gt;
+                                    &lt;mrow&gt;
+                                      &lt;munderover&gt;
+                                        &lt;mo&gt;∑&lt;/mo&gt;
+                                        &lt;mrow&gt;
+                                          &lt;mi&gt;n&lt;/mi&gt;
+                                          &lt;mo&gt;=&lt;/mo&gt;
+                                          &lt;mn&gt;1&lt;/mn&gt;
+                                        &lt;/mrow&gt;
+                                        &lt;mrow&gt;
+                                          &lt;mo&gt;+&lt;/mo&gt;
+                                          &lt;mn&gt;∞&lt;/mn&gt;
+                                        &lt;/mrow&gt;
+                                      &lt;/munderover&gt;
+                                      &lt;mfrac&gt;
+                                        &lt;mn&gt;1&lt;/mn&gt;
+                                        &lt;msup&gt;
+                                          &lt;mi&gt;n&lt;/mi&gt;
+                                          &lt;mn&gt;2&lt;/mn&gt;
+                                        &lt;/msup&gt;
+                                      &lt;/mfrac&gt;
+                                    &lt;/mrow&gt;
+                                  &lt;/math&gt;
+                                  is equal to the real number
+                                  &lt;math display="inline"&gt;
+                                    &lt;mfrac&gt;
+                                      &lt;msup&gt;
+                                        &lt;mi&gt;π&lt;/mi&gt;
+                                        &lt;mn&gt;2&lt;/mn&gt;
+                                      &lt;/msup&gt;
+                                      &lt;mn&gt;6&lt;/mn&gt;
+                                    &lt;/mfrac&gt;&lt;/math&gt;.
+                                &lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/math" target="_blank"><pre>&lt;math&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;menu&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;menu&gt; se utiliza para definir grupos de elementos de menú, 
+                            como menús de navegación o menús contextuales. Puede contener elementos &lt;li&gt; 
+                            y enlaces (&lt;a&gt;). Tambíen es una alternativa semánctica a &lt;ul&gt;, es tratado por los 
+                            navegadores de igual manera que el elemento &lt;ul&gt;
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;menu type="toolbar"&gt;
+                                &lt;li&gt;&lt;a href="#inicio"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#acerca"&gt;Acerca de&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#contacto"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+                            &lt;/menu&gt;
+                            &lt;p&gt;Este es un &lt;menu&gt; de navegación en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu" target="_blank"><pre>&lt;menu&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;meter&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;meter&gt; se utiliza para representar un valor numérico dentro 
+                            de un rango predefinido o conocido. Puede utilizarse para medir valores como el 
+                            progreso de una tarea o la calidad de un producto.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;meter value="75" min="0" max="100"&gt;75%&lt;/meter&gt;
+                            &lt;p&gt;La calidad del producto es &lt;meter value="90" min="0" max="100"&gt;90%&lt;/meter&gt; excelente.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter" target="_blank"><pre>&lt;meter&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;nav&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;nav&gt; se utiliza para representar una sección de navegación en 
+                            una página web. Suele contener enlaces a otras páginas o secciones del sitio.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;nav&gt;
+                                &lt;a href="#inicio"&gt;Inicio&lt;/a&gt;
+                                &lt;a href="#acerca"&gt;Acerca de&lt;/a&gt;
+                                &lt;a href="#contacto"&gt;Contacto&lt;/a&gt;
+                            &lt;/nav&gt;
+                            &lt;p&gt;El menú de navegación se encuentra en &lt;nav&gt; en esta página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank"><pre>&lt;nav&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;object&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;object&gt; se utiliza para insertar objetos multimedia, como 
+                            videos, audio y otros tipos de contenido, en una página web. Se requiere el atributo 
+                            "data" para especificar la ubicación del recurso.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;object data="video.mp4" width="320" height="240"&gt;&lt;/object&gt;
+                            &lt;p&gt;Aquí se muestra un &lt;object&gt; video en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object" target="_blank"><pre>&lt;object&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ol&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;ol&gt; se utiliza para crear listas ordenadas, donde los elementos 
+                            se enumeran automáticamente en orden secuencial. Cada elemento de la lista se representa 
+                            con un &lt;li&gt;.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;ol&gt;
+                                &lt;li&gt;Elemento 1&lt;/li&gt;
+                                &lt;li&gt;Elemento 2&lt;/li&gt;
+                                &lt;li&gt;Elemento 3&lt;/li&gt;
+                            &lt;/ol&gt;
+                            &lt;p&gt;Esto es una &lt;ol&gt; lista ordenada en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank"><pre>&lt;ol&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;output&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;output&gt; es un contenedor que 
+                            se utiliza para mostrar resultados de cálculos o 
+                            scripts en una página web. Puede ser utilizado en conjunción con elementos de 
+                            entrada como &lt;input&gt; para mostrar resultados dinámicos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;form oninput="result.value=parseInt(a.value)+parseInt(b.value)"&gt;
+                                &lt;input type="range" id="b" name="b" value="50" /&gt; +
+                                &lt;input type="number" id="a" name="a" value="10" /&gt; =
+                                &lt;output name="result" for="a b"&gt;60&lt;/output&gt;
+                            &lt;/form&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output" target="_blank"><pre>&lt;output&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;picture&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;picture&gt; se utiliza para especificar cero o múltiples fuentes de 
+                            imágenes para un elemento &lt;img&gt; y permitir que el navegador seleccione la 
+                            mejor imagen en función de las capacidades del dispositivo y la resolución de pantalla.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;picture&gt;
+                                &lt;source srcset="imagen-grande.jpg" media="(min-width: 800px)"&gt;
+                                &lt;source srcset="imagen-pequeña.jpg" media="(max-width: 799px)"&gt;
+                                &lt;img src="imagen.jpg" alt="Imagen de ejemplo"&gt;
+                            &lt;/picture&gt;
+                            &lt;p&gt;Esta es una &lt;picture&gt; imagen adaptativa en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture" target="_blank"><pre>&lt;picture&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;pre&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;pre&gt; se utiliza para mostrar texto preformateado, que 
+                            conserva espacios y saltos de línea tal como se encuentra en el código fuente. 
+                            Es ideal para mostrar código o texto que debe mantener su formato original.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;pre&gt;
+                            ⠀⠀⠀⠀⠀⠀⠀⠠⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠀⠀⠀⠀⠀⠀⠀⠀
+                            ⠀⠀⠀⠀⡀⠐⢀⣤⣀⠁⠂⠠⢀⣀⣀⣀⡀⠄⠐⠈⣀⣤⡀⠂⢀⠀⠀⠀⠀
+                            ⠀⢀⠀⠀⣠⣴⣿⣟⣿⣿⣶⣦⣤⣤⣤⣤⣤⣴⣶⣿⣿⣻⣿⣦⣄⠀⠀⡀⠀
+                            ⡌⢀⣤⣿⣫⣿⣟⣿⣟⣻⣿⣻⣿⣛⣿⣛⣿⣟⣿⣟⣻⣿⣻⣿⣝⣿⣤⡈⢡
+                            ⡇⢸⣿⣙⣿⣏⣿⣏⣿⣟⣹⣿⣻⣿⣛⣿⣟⣿⣟⣻⣿⣹⣿⣹⣿⣋⣿⡇⠸
+                            ⠀⠸⣿⣏⣿⣏⣽⣯⣻⣿⣹⣿⣩⣿⣉⣿⣍⣿⣏⣿⣿⣽⣿⣻⣿⣙⣿⠇⠀
+                            ⢀⠀⣿⣿⠟⠉⡉⠙⢿⣿⣏⠉⠉⢹⣿⣟⠉⠉⠉⠻⣿⣿⡏⠉⠉⣿⣿⠀⠀
+                            ⠘⡀⢻⣿⠀⠀⣿⣶⣾⣿⠇⢠⡀⠸⣿⣿⠀⠘⠃⠠⣿⣿⣿⠀⢸⣿⡿⢀⠇
+                            ⠀⠁⠘⣿⡀⠀⠛⠀⣸⡏⠀⢴⣶⠀⠻⡟⠀⠘⠃⢀⣇⠀⠙⠀⣸⣿⠃⠘⠀
+                            ⠀⠘⠀⢻⣿⣿⣿⣿⢿⣿⡿⣿⣿⢿⣿⡿⣿⣿⢿⣿⡿⣿⣿⢿⣿⡟⠀⠃⠀
+                            ⠀⠀⠠⠀⢿⣿⢿⣿⣿⢿⣿⡿⣿⣿⠿⣿⣿⢿⣿⡿⣿⣿⡿⣿⡿⠀⡔⠀⠀
+                            ⠀⠀⠀⢀⠈⢿⣾⡿⣿⣿⢿⣿⣟⣻⣿⣟⣻⣿⡿⣿⣿⢿⣷⡿⠁⡠⠀⠀⠀
+                            ⠀⠀⠀⠀⠂⠈⢿⣿⣟⣿⣿⣟⣿⣿⣿⣿⣿⣻⣿⣿⣻⣿⡿⠁⠐⠀⠀⠀⠀
+                            ⠀⠀⠀⠀⠀⠀⠀⠻⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⠟⠀⠔⠀⠀⠀⠀⠀
+                            ⠀⠀⠀⠀⠀⠀⠀⢄⠘⢻⣿⣧⣿⢿⣶⡿⢿⣽⣿⡟⠃⠠⠂⠀⠀⠀⠀⠀⠀
+                            ⠀⠀⠀⠀⠀⠀⠀⠀⠁⠄⠘⠻⣿⣿⣛⣿⣿⠟⠃⠠⠈⠀⠀⠀⠀⠀⠀⠀⠀
+                            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠠⠈⠙⠿⠋⢁⠄⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                            &lt;/pre&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="_blank"><pre>&lt;pre&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;progress&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;progress&gt; se utiliza para mostrar una barra de progreso 
+                            que indica el avance de una tarea en curso. Se define utilizando el atributo 
+                            "value" para especificar el progreso actual.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;progress value="70" max="100"&gt;70% completado&lt;/progress&gt;
+                            &lt;p&gt;La tarea está &lt;progress&gt;70% completada&lt;/progress&gt; en la página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" target="_blank"><pre>&lt;progress&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;q&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;q&gt; se utiliza para indicar que su contenido es una 
+                            cita corta que debe ser rodeada por comillas dobles. Este elemento ayuda a 
+                            definir claramente las citas dentro de un texto.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;El profesor dijo: &lt;q&gt;Estudien para el examen.&lt;/q&gt;&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="_blank"><pre>&lt;q&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ruby&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;ruby&gt; se utiliza para anotar caracteres de texto 
+                            con pronunciaciones, explicaciones o traducciones en documentos escritos 
+                            en idiomas asiáticos. Es especialmente útil para mostrar furigana en japonés.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;ruby&gt;
+                                日本語 &lt;rt&gt;にほんご&lt;/rt&gt;
+                            &lt;/ruby&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby" target="_blank"><pre>&lt;ruby&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;s&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;s&gt; se utiliza para representar texto que se considera 
+                            no válido o irrelevante en el contexto actual. A menudo se muestra tachado 
+                            visualmente en los navegadores.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un ejemplo de texto &lt;s&gt;tachado&lt;/s&gt; en una página.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" target="_blank"><pre>&lt;s&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;samp&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;samp&gt; se utiliza para representar texto que es una 
+                            muestra de salida de un programa o script. Se suele mostrar en una fuente de 
+                            monoespacio.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;La salida del programa es: &lt;samp&gt;Hello, World!&lt;/samp&gt;&lt;/p&gt;
+                            &lt;p&gt;El texto &lt;samp&gt;monoespacio&lt;/samp&gt; se utiliza para la salida del programa.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" target="_blank"><pre>&lt;samp&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;section&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;section&gt; se utiliza para representar una sección temática 
+                            de un documento. Ayuda a estructurar y organizar el contenido de una página web.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;section&gt;
+                                &lt;h2&gt;Introducción&lt;/h2&gt;
+                                &lt;p&gt;Esta es la sección de introducción del documento.&lt;/p&gt;
+                            &lt;/section&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank"><pre>&lt;section&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;select&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;select&gt; se utiliza para crear listas desplegables 
+                            (menús) en formularios web. Permite a los usuarios seleccionar una opción de 
+                            una lista predefinida.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;select name="frutas"&gt;
+                                &lt;option value="manzana"&gt;Manzana&lt;/option&gt;
+                                &lt;option value="banana"&gt;Banana&lt;/option&gt;
+                                &lt;option value="uva"&gt;Uva&lt;/option&gt;
+                            &lt;/select&gt;
+                            &lt;p&gt;Selecciona tu fruta favorita: &lt;select&gt;...&lt;/select&gt;&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank"><pre>&lt;select&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;small&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;small&gt; se utiliza para representar texto en una fuente 
+                            más pequeña y con estilo menos prominente. Generalmente se utiliza para 
+                            indicar notas de pie de página, información legal e información de copyright. Se 
+                            renderiza con una fuente pequeña x-small o small. 
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un texto en &lt;small&gt;fuente más pequeña&lt;/small&gt; dentro de un párrafo.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" target="_blank"><pre>&lt;small&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;span&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;span&gt; se utiliza para aplicar estilo a una parte 
+                            específica de un texto sin afectar a la estructura general del documento. 
+                            Es útil para aplicar CSS o scripts a una porción de texto.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un texto con una &lt;span style="color: red;"&gt;fuente de color rojo&lt;/span&gt;.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank"><pre>&lt;span&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;strong&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;strong&gt; se utiliza para dar énfasis a una parte 
+                            importante del texto, generalmente mostrándola en negrita. Es recomendable usarla
+                            como un componente semántico para realzar palabras en un tono más fuerte.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un texto &lt;strong&gt;importante&lt;/strong&gt; en negrita.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank"><pre>&lt;strong&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;sub&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;sub&gt; se utiliza para representar texto subíndice, 
+                            generalmente se muestra en una posición más baja y más pequeña que el texto 
+                            circundante. Se utiliza en fórmulas químicas, matemáticas y anotaciones.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O representa agua.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="_blank"><pre>&lt;sub&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;sup&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;sup&gt; se utiliza para representar texto sobrescrito, 
+                            generalmente se muestra en una posición más alta y más pequeña que el texto 
+                            circundante. Se utiliza en fórmulas químicas, matemáticas y anotaciones.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;E=mc&lt;sup&gt;2&lt;/sup&gt; es la fórmula de la relatividad.&lt;/p&gt;
+                            &lt;p&gt;El texto &lt;sup&gt;sobrescrito&lt;/sup&gt; se utiliza en fórmulas y anotaciones.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank"><pre>&lt;sup&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;svg&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;svg&gt; se utiliza para incrustar gráficos vectoriales 
+                            escalables en una página web. Puede contener formas, texto y otros elementos 
+                            gráficos que se pueden escalar y modificar con CSS y JavaScript.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;svg width="100" height="100"&gt;
+                                &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /&gt;
+                            &lt;/svg&gt;
+                            &lt;p&gt;Este es un ejemplo de un &lt;svg&gt; círculo.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg" target="_blank"><pre>&lt;svg&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;table&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;table&gt; se utiliza para crear tablas en una página web. 
+                            Permite organizar datos en filas y columnas, y puede incluir encabezados, 
+                            celdas de datos y más. Las tablas son esenciales para mostrar información 
+                            de manera estructurada.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;tr&gt;
+                                    &lt;th&gt;Nombre&lt;/th&gt;
+                                    &lt;th&gt;Edad&lt;/th&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Juan&lt;/td&gt;
+                                    &lt;td&gt;25&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank"><pre>&lt;table&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;textarea&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;textarea&gt; se utiliza para crear áreas de texto 
+                            editables en formularios web. Los usuarios pueden escribir y editar texto 
+                            en estas áreas, que luego se envían al servidor.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;textarea rows="4" cols="50"&gt;
+                                Este es un área de texto editable.
+                            &lt;/textarea&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea" target="_blank"><pre>&lt;textarea&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;time&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;time&gt; se utiliza para representar información de 
+                            fecha y hora. Puede mostrar fechas, horas, períodos y más, y se puede 
+                            formatear de diferentes maneras.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;
+                              The Cure will be celebrating their 40th anniversary on &lt;time datetime="2018-07-07"&gt;July 7&lt;/time&gt; in London's Hyde
+                              Park.
+                            &lt;/p&gt;
+                            
+                            &lt;p&gt;
+                              The concert starts at &lt;time datetime="20:00"&gt;20:00&lt;/time&gt; and you'll be able to enjoy the band for at least
+                              &lt;time datetime="PT2H30M"&gt;2h 30m&lt;/time&gt;.
+                            &lt;/p&gt;
+                              
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" target="_blank"><pre>&lt;time&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;u&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;u&gt; se utiliza para representar texto subrayado. 
+                            Se utiliza a menudo para indicar enlaces no visitados, pero también se 
+                            puede aplicar para resaltar texto.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este es un texto &lt;u&gt;subrayado&lt;/u&gt; en una página web.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u" target="_blank"><pre>&lt;u&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;ul&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;ul&gt; se utiliza para crear listas no ordenadas en una 
+                            página web. Contiene elementos de lista (&lt;li&gt;) que se muestran como 
+                            elementos de viñeta.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;ul&gt;
+                                &lt;li&gt;Elemento 1&lt;/li&gt;
+                                &lt;li&gt;Elemento 2&lt;/li&gt;
+                                &lt;li&gt;Elemento 3&lt;/li&gt;
+                            &lt;/ul&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank"><pre>&lt;ul&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;var&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;var&gt; se utiliza para representar una variable o 
+                            un término matemático en un contexto textual. Por lo general, se muestra 
+                            en cursiva para distinguirlo del texto circundante.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;La fórmula para calcular el área de un círculo es &lt;var&gt;A&lt;/var&gt; = πr&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var" target="_blank"><pre>&lt;var&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;video&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;video&gt; se utiliza para incrustar y reproducir 
+                            contenido de video en una página web. Puede incluir controles de reproducción 
+                            y varias fuentes de video para adaptarse a diferentes dispositivos y 
+                            navegadores.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;video controls width="250"&gt;
+                                  &lt;source src="/media/cc0-videos/flower.webm" type="video/webm" /&gt;
+
+                                  &lt;source src="/media/cc0-videos/flower.mp4" type="video/mp4" /&gt;
+
+                                  Descarga el video
+                                  &lt;a href="/media/cc0-videos/flower.webm"&gt;WEBM&lt;/a&gt;
+                                  o
+                                  &lt;a href="/media/cc0-videos/flower.mp4"&gt;MP4&lt;/a&gt;.
+                                &lt;/video&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank"><pre>&lt;video&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;wbr&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;wbr&gt; (Word Break Opportunity) se utiliza para 
+                            indicar un punto de quiebre sugerido en una palabra larga. Ayuda a los 
+                            navegadores a dividir la palabra en líneas si es necesario.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                                &lt;div id="example-paragraphs"&gt;
+                                  &lt;p&gt;Fernstraßenbauprivatfinanzierungsgesetz&lt;/p&gt;
+                                  &lt;p&gt;Fernstraßen&lt;wbr /&gt;bau&lt;wbr /&gt;privat&lt;wbr /&gt;finanzierungs&lt;wbr /&gt;gesetz&lt;/p&gt;
+                                  &lt;p&gt;Fernstraßen&amp;shy;bau&amp;shy;privat&amp;shy;finanzierungs&amp;shy;gesetz&lt;/p&gt;
+                                &lt;/div&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr" target="_blank"><pre>&lt;wbr&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;area&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;area&gt; se utiliza junto con el elemento &lt;map&gt; 
+                            para definir áreas sensibles en una imagen. Estas áreas pueden ser clicables 
+                            y se utilizan en mapas de imagen.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;img src="plano.png" usemap="#mapa"&gt;
+                            &lt;map name="mapa"&gt;
+                                &lt;area shape="rect" coords="0,0,50,50" alt="Área 1"&gt;
+                                &lt;area shape="circle" coords="100,100,30" alt="Área 2"&gt;
+                            &lt;/map&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area" target="_blank"><pre>&lt;area&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&amp;nbsp;</pre></td>
+                        <td class="descripcion-column">
+                            La entidad HTML `&amp;nbsp;` representa un espacio en blanco no rompible en 
+                            HTML. Se utiliza para crear espacios que no se pueden dividir en líneas, 
+                            como en el caso de la alineación de texto o el espaciado en formularios.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Este texto tiene un espacio no rompible antes de la palabra &lt;span&gt;no&lt;/span&gt;&amp;nbsp;rompible.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Glossary/nbsp" target="_blank"><pre>&amp;nbsp;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&amp;lt;</pre> y <pre>&amp;gt;</pre></td>
+                        <td class="descripcion-column">
+                            Las entidades HTML `&amp;lt;` y `&amp;gt;` se utilizan para representar los 
+                            caracteres `&lt;` y `&gt;` en HTML. Esto es necesario cuando deseas mostrar estos 
+                            caracteres en tu contenido en lugar de interpretarlos como etiquetas HTML.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Para mostrar el símbolo mayor que (&amp;gt;), utiliza &amp;lt;p&gt;.&lt;/p&gt;
+                            &lt;p&gt;Para mostrar el símbolo menor que (&amp;lt;), utiliza &amp;gt;p&lt;/p&gt;.&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Glossary/lt" target="_blank"><pre>&amp;lt;</pre></a> y <a href="https://developer.mozilla.org/en-US/docs/Glossary/gt" target="_blank"><pre>&amp;gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&amp;amp;</pre></td>
+                        <td class="descripcion-column">
+                            La entidad HTML `&amp;amp;` se utiliza para representar el símbolo `&` en HTML. 
+                            Esto es necesario cuando deseas mostrar el símbolo `&` en tu contenido en lugar 
+                            de interpretarlo como el inicio de una entidad HTML.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;p&gt;Para mostrar el símbolo &amp; en HTML, utiliza &amp;amp;amp;&lt;/p&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Glossary/amp" target="_blank"><pre>&amp;amp;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;caption&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;caption&gt; se utiliza para proporcionar un título o 
+                            una descripción a una tabla en HTML. Generalmente se coloca justo encima de 
+                            la tabla y ayuda a describir el contenido de la tabla.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;caption&gt;Lista de productos&lt;/caption&gt;
+                                &lt;tr&gt;
+                                    &lt;th&gt;Nombre&lt;/th&gt;
+                                    &lt;th&gt;Precio&lt;/th&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Producto 1&lt;/td&gt;
+                                    &lt;td&gt;$20&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption" target="_blank"><pre>&lt;caption&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;thead&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;thead&gt; se utiliza para agrupar las filas que contienen 
+                            encabezados de columna en una tabla HTML. Generalmente se coloca en la parte 
+                            superior de la tabla y se utiliza para organizar y dar estructura a los datos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;Nombre&lt;/th&gt;
+                                        &lt;th&gt;Edad&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Juan&lt;/td&gt;
+                                        &lt;td&gt;25&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead" target="_blank"><pre>&lt;thead&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;td&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;td&gt; se utiliza para representar una celda de datos 
+                            en una tabla HTML. Se coloca dentro de una fila (&lt;tr&gt;) y contiene el 
+                            contenido de una celda específica.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Dato 1&lt;/td&gt;
+                                    &lt;td&gt;Dato 2&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" target="_blank"><pre>&lt;td&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;tr&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;tr&gt; se utiliza para representar una fila en una tabla 
+                            HTML. Contiene una o más celdas de datos (&lt;td&gt;) que forman una fila 
+                            específica en la tabla.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Dato 1&lt;/td&gt;
+                                    &lt;td&gt;Dato 2&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" target="_blank"><pre>&lt;tr&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;tbody&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;tbody&gt; se utiliza para agrupar un conjunto de filas 
+                            en una tabla HTML que forman el cuerpo principal de la tabla. Ayuda a 
+                            estructurar y organizar los datos en una tabla.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;Nombre&lt;/th&gt;
+                                        &lt;th&gt;Edad&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Juan&lt;/td&gt;
+                                        &lt;td&gt;25&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Ana&lt;/td&gt;
+                                        &lt;td&gt;30&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" target="_blank"><pre>&lt;tbody&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;tfoot&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;tfoot&gt; se utiliza para agrupar las filas que contienen 
+                            resúmenes o totales en una tabla HTML. Generalmente se coloca en la parte 
+                            inferior de la tabla y se utiliza para proporcionar información adicional 
+                            sobre los datos de la tabla.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;Producto&lt;/th&gt;
+                                        &lt;th&gt;Precio&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Producto 1&lt;/td&gt;
+                                        &lt;td&gt;$20&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Producto 2&lt;/td&gt;
+                                        &lt;td&gt;$30&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                                &lt;tfoot&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Total&lt;/td&gt;
+                                        &lt;td&gt;$50&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tfoot&gt;
+                            &lt;/table&gt;
+                            </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot" target="_blank"><pre>&lt;tfoot&gt;</pre></a></td>
+                    </tr>
+                    <tr>
+                        <td class="elemento-column"><pre>&lt;th&gt;</pre></td>
+                        <td class="descripcion-column">
+                            El elemento HTML &lt;th&gt; se utiliza para representar una celda de encabezado 
+                            en una tabla HTML. Se coloca dentro de una fila de encabezado (&lt;thead&gt;) o 
+                            una fila normal (&lt;tr&gt;) y se utiliza para etiquetar o describir el contenido 
+                            de las celdas de datos.
+                        </td>
+                        <td class="ejemplo-column">
+                            <div class="codigo-contenedor">
+                            &lt;table&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;Nombre&lt;/th&gt;
+                                        &lt;th&gt;Edad&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Juan&lt;/td&gt;
+                                        &lt;td&gt;25&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Ana&lt;/td&gt;
+                                        &lt;td&gt;30&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                             </div>
+                            <button class="boton-copiar" onclick="copiar(this.parentElement)">+</button>
+                        </td>
+                        <td class="mas-info-column"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" target="_blank"><pre>&lt;th&gt;</pre></a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <!--
                     <tr>
                         <td class="elemento-column"><pre>&lt;PON LA ETIQUETA AQUI&gt;</pre></td>
