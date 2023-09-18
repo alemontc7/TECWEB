@@ -13,7 +13,7 @@ th, td {
     padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     overflow: auto;
-    width: 25%; /* Each header occupies 25% of the table width */
+    width: 25%; 
 
 }
 
@@ -27,7 +27,6 @@ th {
 table {
     border-collapse: separate;
     border-spacing: 0;
-    border-radius: 10px;
     overflow: hidden;
     width: 95%;
     margin: auto;
@@ -112,9 +111,10 @@ nav {
     font-size: 20px;
 }
 .contenedor-tabla {
-    overflow-x: auto;
+    overflow-x: hidden;
     width: 95%;
     margin-top: 30px;
+    border-radius: 10px;
 }
 
 .boton-copiar {
@@ -138,48 +138,4 @@ footer {
     margin-bottom: 50px;
 
     color: #aca9a9;
-}
-@media (max-width: 768px) {
-    .main-tittle {
-        font-size: 24px;
-    }
-
-    th, td {
-        font-size: 14px; 
-        padding: 10px; 
-        width: auto;
-    }
-
-    .elemento {
-        font-size: 16px;
-    }
-
-    .mas-info-column a {
-        font-size: 16px; 
-    }
-
-    .codigo-contenedor {
-        max-width: 100%; 
-        overflow-x: auto; 
-    }
-
-    .boton-copiar {
-        margin-left: 0; 
-    }
-
-    footer {
-        font-size: 18px; 
-        margin-top: 20px;
-        margin-bottom: 20px; 
-    }
-    table {
-        overflow-x: auto; 
-    }
-    .descripcion-column, .ejemplo-column {
-        white-space: normal;
-        word-wrap: break-word;
-    }
-    .hide-on-small {
-        display: none;
-    }
 }
